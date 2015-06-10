@@ -34,7 +34,7 @@ Hopefully this listing guides in future development choices.
  * First-Person Perspective
  * Curiousity-provoking environment to encourage player exploration
  * Simple shooter combat
-    - Use of ADS dependant on player immersion tests
+    - Use of ADS dependent on player immersion tests
  * Player choice in engagement
     - Player should have the option to abstain from all confrontation
     - Player also has the choice to abstain from all confrontational abstinence
