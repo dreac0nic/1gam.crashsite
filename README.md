@@ -1,5 +1,5 @@
 PROJECT CRASHSITE [1GAM.6.2015]
-===========================
+===============================
 
 Project CRASHSITE is a June 2015 #1GAM attempt. This project is an ambitious attempt
 to follow up previous #1GAM MAYDAY with an interactive, immersive, player-driven story
@@ -73,4 +73,4 @@ Blender, Audacity, GIMP, Krita
 
 --------------------------------------------------------------------------------
 
-Created by SpenSer Bray, June 2015
+:dragon_face: Created by SpenSer Bray (@dreac0nic), June 2015
