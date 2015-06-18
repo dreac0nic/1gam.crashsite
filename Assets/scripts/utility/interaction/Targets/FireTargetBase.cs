@@ -1,15 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FireTarget : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+public class FireTargetBase : MonoBehaviour
+{
+	public virtual void Fire() // TODO: Pass trigger (player) information to the fire target
+	{
+		Debug.Log("FIRE!");
 	}
 }

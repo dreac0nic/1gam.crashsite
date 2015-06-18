@@ -1,17 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Interactable : MonoBehaviour {
+public class Interactable : MonoBehaviour
+{
+	public List<FireTargetBase> Targets;
 
-	// Use this for initialization
-	void Start()
+	public void Trigger()
 	{
-
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
+		foreach(FireTargetBase target in Targets) {
+			target.Fire();
+		}
 	}
 }
