@@ -34,5 +34,9 @@ public class PointClickInteractor : MonoBehaviour
 					interactee.Trigger();
 			}
 		}
+
+		// Debugging code!
+		if(Debug.isDebugBuild)
+			Debug.DrawRay(m_Camera.transform.position, m_Camera.ScreenPointToRay(Input.mousePosition).direction*InteractionDistance, Color.red);
 	}
 }
