@@ -5,6 +5,10 @@ using System.Collections.Generic;
 [RequireComponent(typeof (Collider))]
 public class Interactable : MonoBehaviour
 {
+	public bool InteractionCue;
+
+	public Transform InteractionCueAnchor;
+
 	public List<FireTargetBase> Targets;
 
 	public void Trigger()
