@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+[RequireComponent(typeof (Collider))]
 public class Interactable : MonoBehaviour
 {
 	public List<FireTargetBase> Targets;
