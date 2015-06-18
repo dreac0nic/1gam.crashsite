@@ -3,11 +3,11 @@
 # =============== #
 [Tt]emp/
 [Oo]bj/
-[Bb]uild
+[Bb]uild[s?]
 [Ll]ibrary/
 sysinfo.txt
 hivemind_Data/
- 
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -21,7 +21,7 @@ hivemind_Data/
 /*.unityproj
 /*.booproj
 /*.pdb
- 
+
 # ============ #
 # OS generated #
 # ============ #
